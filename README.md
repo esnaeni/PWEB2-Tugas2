@@ -431,7 +431,7 @@ Kelas Mahasiswa ini menggunakan koneksi database yang disediakan oleh kelas Data
         </html>
 
 <p>
-    Kode di atas adalah halaman web yang menampilkan data mahasiswa dari sebuah sistem informasi akademik. Halaman ini menghubungkan dengan database melalui file <b>koneksi.php</b> dan menggunakan class <b><b>Mahasiswa</b> untuk mengambil data mahasiswa dari database.
+    Kode di atas adalah halaman web yang menampilkan data mahasiswa dari sebuah sistem informasi akademik. Halaman ini menghubungkan dengan database melalui file <b>koneksi.php</b> dan menggunakan class <b>Mahasiswa</b> untuk mengambil data mahasiswa dari database.
     Bagian pertama kode PHP melakukan inisialisasi objek dari class <b>Mahasiswa</b> dan memanggil metode <b>tampilData()</b> untuk mendapatkan data mahasiswa. Metode ini dapat menerima parameter <b>id_class</b> untuk menyaring data berdasarkan ID class tertentu, jika parameter tersebut tersedia di URL.
     Bagian HTML membangun struktur halaman yang meliputi elemen-elemen seperti navbar, kontainer utama, dan tabel data. Navbar berfungsi sebagai navigasi, menyediakan dua tautan satu untuk melihat semua data mahasiswa dan satu lagi untuk memfilter data berdasarkan ID class (dengan placeholder <b>SPECIFIC_CLASS_ID</b> yang seharusnya diganti dengan ID class yang relevan). 
     Kontainer utama menampung tabel yang menampilkan data mahasiswa. Tabel ini memiliki kolom untuk nomor urut, ID class, nama, nomor mahasiswa, nomor telepon, alamat, dan tanda tangan. Jika hasil query dari database mengembalikan baris data, tabel akan diisi dengan data tersebut. Jika tidak ada data yang ditemukan, tabel akan menampilkan pesan "Tidak ada data" di baris yang ditambahkan untuk mengisi seluruh kolom tabel.
@@ -614,3 +614,14 @@ Kelas Mahasiswa ini menggunakan koneksi database yang disediakan oleh kelas Data
 
 # Output Yang dihasilkan
 <h4>1. Tampilan Utama</h4>
+<img src="https://github.com/user-attachments/assets/5c1f04b6-a635-4aef-97fe-19a4e4cd80eb">
+
+<h4>2. Tampilan Guidance </h4>
+<img src="https://github.com/user-attachments/assets/cbe146aa-f8bf-48aa-a1c9-95eb4faf8158">
+
+<img src="https://github.com/user-attachments/assets/c2de0708-e7df-4e1f-a867-d956ea97b50f">
+
+<h4>3. Tampilan Student</h4>
+<img src="https://github.com/user-attachments/assets/3fece952-a5ec-48af-ab1f-54b078e960e1">
+
+<img src="https://github.com/user-attachments/assets/c98f73c2-da12-4e9d-afd0-6f9b0a3e64b3">
